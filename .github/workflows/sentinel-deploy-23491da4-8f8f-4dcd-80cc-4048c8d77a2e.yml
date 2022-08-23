@@ -9,6 +9,7 @@ name: Deploy Content to newlaworkspace1 [23491da4-8f8f-4dcd-80cc-4048c8d77a2e]
 #   2. Append the path to the directory environment variable below
 #       directory: '${{ github.workspace }}/SentinelContent'
 
+
 on: 
   push:
     branches: [ main ]
