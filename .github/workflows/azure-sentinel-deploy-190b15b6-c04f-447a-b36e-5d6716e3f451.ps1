@@ -14,6 +14,7 @@ $contentTypeMapping = @{
     "Playbook"=@("Microsoft.Web/connections", "Microsoft.Logic/workflows", "Microsoft.Web/customApis");
     "Workbook"=@("Microsoft.Insights/workbooks");
 }
+
 $sourceControlId = $Env:sourceControlId 
 $rootDirectory = $Env:rootDirectory
 $githubAuthToken = $Env:githubAuthToken
